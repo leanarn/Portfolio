@@ -1,0 +1,35 @@
+html {
+  scroll-behavior: smooth;
+}
+:root {
+  --bg: #0f172a;
+  --bg-soft: #020617;
+  --card: #020617;
+  --text: #e5e7eb;
+  --muted: #94a3b8;
+  --primary: #38bdf8;
+  --border: #1e293b;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-weight: 600;
+}
+
+section {
+  max-width: 1100px;
+  margin: auto;
+  padding: 4rem 2rem;
+}
